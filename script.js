@@ -23,8 +23,11 @@ document.getElementById("clearLeaderboard").addEventListener("click", function()
     leaderboardList.innerHTML = ""; // UI aktualisieren
     alert("Leaderboard wurde gelöscht!");
 });
+//document.getElementById("Help").addEventListener("click", function() {
+   // document.getElementById("Help").innerText = "Y Koordinate: " +rectStart.y;
+//});
 document.getElementById("Help").addEventListener("click", function() {
-    document.getElementById("Help").innerText = "Y Koordinate: " +rectStart.y;
+    document.getElementById("Help").innerText = "streng dich mehr an!!!!!!!!!!";
 });
 
 
