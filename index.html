@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruhige Hand Test </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ruhige Hand Test</h1>
+    
+    <button onclick="testStart()" id="startBtn">Test starten</button>
+    <p id="infoText">Bewege die Maus so gerade wie möglich zum roten Punkt.</p>
+    <p>Der Test startet nachdem der Cursor den linken Kreis berührt und der Countdown abgelaufen ist.</p>
+    <p>Deine Abweichung in Pixel: <span id="abweichung">0</span> px</p>
+
+    
+    <div class="start" id="1"></div> 
+    <div class="end" id="2"></div>
+    
+    
+    <h2>Leaderboard</h2>
+    <ul id="leaderboard"></ul>
+    <button id="clearLeaderboard">Leaderboard löschen</button>
+    <button id="Help">Help</button>
+    <script src="script.js"></script>
+</body>
+</html>
